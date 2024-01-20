@@ -1,0 +1,583 @@
+
+
+
+/* body */
+.body{
+  width: 100%;
+  max-width: fit-content;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+.navbar{
+  width: 100%;
+  height: 100%;
+}
+.bgimage{
+  transform: scale(1.25) translateY(-10%);
+  overflow: visible;
+  mix-blend-mode: color;
+  color: black;
+ 
+  width: 88%;
+  border: solid black;
+  object-fit: cover;
+  height: 100%;
+}
+.back{
+  height: 100%;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg);
+    left: 0;
+    position:absolute;
+    top: 0;
+    border: 2px solid black;
+    width: 100%;
+    background-color: transparent;
+    filter: brightness(0.4);
+}
+
+.dropdown{
+  margin-top: -40px;
+  overflow: visible;
+  border-radius: 3px;
+  border: 1px solid white;
+  margin-left: 1012px;
+  width: 106px;
+  height: 37px;
+}
+.dropdown svg{
+  fill: none;
+  stroke: #ffffff;
+  margin-left: 12px;
+  margin-top: 9px;
+  stroke-miterlimit: revert;
+  stroke-width: 1.92px;
+  width: 16px;
+}
+.navi img{
+  width: 9.25rem;
+  height: 2.5rem;
+  margin-left: 47px;
+  position: relative;
+  margin-top: 39px;
+}
+.dropdown button{
+  margin-left: 20px;
+  margin-top: -50px;
+  width: 65px;
+  height: 37px;
+  color: white;
+}
+.btn.show{
+  border: none;
+}
+.btn:hover{
+  border: none;
+}
+.navi{
+  overflow: visible;
+    height: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.sign{
+  margin-left: 1149px;
+  width: 6%;
+  height: 100%;
+  margin-top: -37px;
+}
+
+.sign button:hover{
+  opacity: 85%;
+}
+
+.sign button{
+  cursor: pointer;
+  background-color: rgb(229, 9, 20);
+  border: 1px solid rgb(229, 9, 20);
+  width: 72px;
+  font-weight: 600;
+  height: 37px;
+  border-radius: 5px;
+
+}
+
+.sur{
+  overflow: visible;
+    height: 0;
+    position: relative;
+    z-index: 1;
+    margin-left: 440px;
+    margin-top: 210px;
+}
+
+.sur h1{
+  font-size: -webkit-xxx-large;
+  margin-left: -262px;
+  font-weight: 800;
+}
+
+.sur h3{
+  margin-left: 7px;
+  font-size: x-large;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.registre h3{
+  margin-left: -100px;
+  font-weight: 400;
+  max-width: 40.5rem;
+  font-size: x-large;
+  letter-spacing: -0.2rex;
+ 
+  text-align: center;
+}
+.registre div{
+  display: flex;
+}
+.registre button{
+  padding: 4px 8px;
+  border: 2px solid rgb(229, 9, 20);
+  margin-left: 12px;
+  margin-top: 5px;
+  width: 154px;
+  font-weight: 500;
+  font-size: larger;
+  background-color: rgb(229, 9, 20);
+  height: 47px;
+  border-radius: 4px;
+}
+
+.registre input{
+  width: 384px;
+  border: 1px solid white;
+  height: 50px;
+  background: transparent;
+  margin-top: 4px;
+  text-align: center;
+  margin-left: 326px;
+  border-radius: 6px;
+}
+
+.fni{
+  width: 100%;
+  height: 28%;
+  margin-left: -371px;
+  background-color:transparent;
+  margin-top: 40px;
+}
+.fni button:hover{
+  opacity: 85%;
+}
+
+
+
+.registre img{
+  margin-left: 137px;
+  margin-top: -36px;
+  font-size: larger;
+  width: 23px;
+}
+
+.tv1{
+  overflow: visible;
+  display: flex;
+  color: black;
+  margin-top: 417px;
+  width:100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.w1 h1{
+  margin-top: 232px;
+  letter-spacing: 0.2rem;
+  margin-left: 32px;
+  font-size: xxx-large;
+  font-weight: 700;
+  color: white;
+}
+
+.w1 h3{
+  color: white;
+  max-width: 28.2rem;
+  margin-left: 34px;
+  font-weight: 400;
+  margin-top: 24px;
+  font-size: larger;
+}
+
+.tvw img{
+  width: 584px;
+  height: 372px;
+  margin-top: 94px;
+  margin-left: 158px;
+}
+
+.tvw video{
+  margin-top: -295px;
+  width: 605px;
+  height: 203px;
+  margin-left: 109px;
+}
+
+.bord{
+  width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+}
+
+.bord1{
+  width: 100%;
+    height: 0.5rem;
+    position: relative;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+}
+.bord2{
+  width: 100%;
+    height: 0.5rem;
+    position: relative;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+}
+
+.left{
+  width: 693px;
+  height: auto;
+  margin-top: -573px;
+  display: flex;
+  margin-left: -47px;
+  flex-direction: column;
+}
+
+.sup{
+  width: 100%;
+ display: block;
+  height: 100vh;
+}
+.loader{
+  width: 73vh;
+  display: flex;
+  height: 17vh;
+  background-color: black;
+  border-radius: 15px;
+  border: 2px solid rgba(128,128,128,0.7);
+  margin-left: 125px;
+  margin-top: -149px;
+}
+
+.loader img{
+  margin-top: 6px;
+  width: 62px;
+  height: fit-content;
+  margin-left: 5px;
+}
+.loader h3{
+  font-size: large;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-left: 19px;
+}
+
+.update{
+  margin-top: 47px;
+  margin-left: -128px;
+  color: #0071eb;
+  font-weight: 400;
+}
+
+.downloadico{
+  width: 48px;
+  height: 63px;
+  margin-left: 168px;
+  margin-top: 12px;
+}
+
+.right{
+  margin-left: 444px;
+}
+.right h1{
+  font-weight: 700;
+  color: #ffff;
+  font-size: -webkit-xxx-large;
+  margin-left: 208px;
+}
+.right div{
+  padding: 192px 3px;
+}
+
+.right h3{
+  margin-left: 211px;
+  font-weight: 400;
+  margin-top: 17px;
+  font-size: 24px;
+  color: #ffff;
+}
+
+.win3{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.lef{
+  width: 48%;
+  height: 100%;
+}
+
+.lef h1{
+  font-size: -webkit-xxx-large;
+  font-weight: 700;
+  padding: 5px 36px;
+  margin-top: 224px;
+}
+.lef h3{
+  font-size: x-large;
+  padding: 11px 39px;
+  font-weight: 400;
+}
+
+.righ img{
+  width: 89%;
+  margin-top: 82px;
+  margin-left: 42px;
+}
+
+.righ video{
+  margin-top: -402px;
+  width: 364px;
+  mix-blend-mode: screen;
+  margin-left: 152px;
+}
+
+.chil{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.chillef{
+  width: 51%;
+  height: 100%;
+}
+
+.chilrigh{
+  height: 100%;
+  width: 51%;
+}
+
+.chillef img{
+  margin-left: 28px;
+  padding: 64px 20px;
+}
+
+.chilrigh h1{
+  font-size: xxx-large;
+  font-weight: 800;
+  margin-top: 173px;
+  padding: 8px 42px;
+}
+
+.chilrigh h3{
+  font-size: x-large;
+  margin-left: 43px;
+  font-weight: 400;
+  padding: 13px 3px;
+}
+.fri{
+  width: 100%;
+  height: 105vh;
+  color: white;
+}
+.accordion{
+  width: 96%;
+  margin-left: 24px;
+  height: 66px;
+}
+.fure{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+
+}
+
+.accordion-item{
+  background-color: rgb(35,35,35);
+  
+}
+.fri h1{
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: 800;
+  padding: 36px 1px;
+}
+
+.accordion-button:hover{
+  background-color: rgb(35,35,35);
+  border: 1px solid rgb(35,35,35);
+  color: white;
+}
+
+.accordion-button{
+  color: white;
+  border: 1px solid rgb(35,35,35);
+}
+
+.accordion-body{
+  color: aliceblue;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+.space{
+  padding: 14px 1px;
+}
+
+.inf{
+  width: 100%;
+  height: 28%;
+  background-color: black;
+  margin-top: 421px;
+}
+
+.inf h3{
+  color: white;
+  margin-left: 305px;
+  padding: 10px 3px;
+  font-size: large;
+}
+.inf input{
+  width: 384px;
+  border: 2px solid rgb(35,35,35);
+  height: 50px;
+  background: black;
+  margin-top: 4px;
+  text-align: center;
+  margin-left: 326px;
+  border-radius: 6px;
+}
+
+.inf button{
+  padding: 4px 8px;
+  border: 2px solid black;
+  margin-left: 12px;
+  width: 154px;
+  font-weight: 500;
+  font-size: larger;
+  background-color:rgb(229, 9, 20);
+  height: 47px;
+  border-radius: 4px;
+}
+.inf button:hover{
+  opacity: 85%;
+}
+
+.inf svg{
+  width: 19px;
+  margin-left: 850px;
+  margin-top: -34px;
+}
+.fni svg{
+  width: 19px;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.bord4{
+  margin-top: 70px;
+  width: 100%;
+  height: 9px;
+  background-color: rgb(35,35,35);
+}
+
+.foote{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 200px;
+}
+.h4w{
+  padding: 2px 45px;
+}
+.tbl{
+  padding: 12px 9px;
+  margin-left: -308px;
+  margin-top: 16px;
+}
+.tb2{
+  padding: 12px 9px;
+  margin-top: 16px;
+  margin-left: 145px;
+}
+.tb3{
+  padding: 12px 9px;
+  margin-top: 16px;
+  margin-left: 145px;
+}
+.tb4{
+  padding: 12px 9px;
+  margin-top: 16px;
+  margin-left: 145px;
+}
+
+table{
+  display: flex;
+  flex-direction: column;
+}
+.telep{
+  text-decoration: underline rgba(255,255,255,0.7) ;
+}
+th{
+  padding: 6px 12px;
+  text-decoration: underline;
+  font-size: small;
+  font-weight: 400;
+  color: rgba(255,255,255,0.7);
+}
+
+.dropdow{
+  margin-top: 174px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid white;
+  width: 106px;
+  margin-left: -1007px;
+}
+.foote h3{
+  margin-top: 228px;
+  margin-left: -106px;
+  color: rgba(255,255,255,0.7);
+  padding: 10px 3px;
+  font-size: small;
+}
+svg{
+  fill: none;
+  stroke: #ffffff;
+  margin-left: 12px;
+  margin-top: 6px;
+  stroke-miterlimit: revert;
+  stroke-width: 1.92px;
+  width: 16px;
+}
+
+.dropdow button{
+  margin-left: 20px;
+  margin-top: -50px;
+  color: white;
+}
+.btn.show{
+  border: none;
+}
+.btn:hover{
+  border: none;
+}
